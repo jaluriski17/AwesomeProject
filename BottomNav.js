@@ -7,11 +7,18 @@ import { faUser,} from '@fortawesome/free-regular-svg-icons';
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 import Mahasiswa from './Mahasiswa';
 import { WebView } from 'react-native-webview';
+import Createdata from './ Createdata';
 
 function HomeScreen() {
   return (
     
       <Mahasiswa/>
+  );
+}
+function HomeScreen() {
+  return (
+    
+      <Createdata/>
   );
 }
 function WebScreen() {
